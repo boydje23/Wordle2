@@ -145,7 +145,7 @@ public class Dlewor {
         ArrayList<String> targetWords = new ArrayList<String>();
 
         // open file for reading
-        FileReader f = new FileReader(args[0]);
+        FileReader f = new FileReader("/Users/jason/IdeaProjects/Wordle2/src/vocab.nytimes.sorted.txt");
 
         // create Scanner object for reading
         Scanner in = new Scanner(f);
